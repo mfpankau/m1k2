@@ -18,9 +18,9 @@ user input:
 functions:
     definition:
         >>f `return type` name(`parameters`)
-        {
+        
             >>r `return value`;
-        }
+        f<<
     calling:
         name(`parameters`);
 
@@ -43,11 +43,11 @@ data structures:
             `name`.set(`key`, `value`);
     classes:
         >>c `name` 
-        {
+        
             `code`
-        }
+        <<c
         or
         >>c `name` extends `extending class`
-        {
+        
             `code`
-        }
+        <<c
